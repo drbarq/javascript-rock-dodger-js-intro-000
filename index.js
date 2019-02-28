@@ -105,10 +105,10 @@ function endGame() {
 
 function moveDodger(e) {
   switch (e.which) {
-    case 37:
+    case LEFT_ARROW:
     moveDodgerLeft()
     break
-    case 39:
+    case RIGHT_ARROW:
     moveDodgerRight()
     break
   }}
