@@ -106,9 +106,13 @@ function endGame() {
 function moveDodger(e) {
   switch (e.which) {
     case LEFT_ARROW:
+    e.preventDefault()
+    e.stopPropagation()
     moveDodgerLeft()
     break
     case RIGHT_ARROW:
+    e.preventDefault()
+    e.stopPropagation()
     moveDodgerRight()
     break
   }}
