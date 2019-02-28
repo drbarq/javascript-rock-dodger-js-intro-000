@@ -137,7 +137,7 @@ function moveDodgerRight() {
     }
 }
 
-// this really threw me for a loop for the left < 360 and plus 4, i dont under stand that combo 
+// this really threw me for a loop for the left < 360 and plus 4, i dont under stand that combo
 
 /**
  * @param {string} p The position property
